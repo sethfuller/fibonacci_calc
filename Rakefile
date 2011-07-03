@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fibonacci_calc"
   gem.homepage = "http://github.com/sethfuller/fibonacci_calc"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A monkey patch to Fixnum to provide the closest fibonacci number less than the current number}
+  gem.description = %Q{Monkey patch Fixnum to add method to calculate the closest fibonacci number less than the current number}
   gem.email = "fuller.sethm@gmail.com"
   gem.authors = ["Seth Fuller"]
   # dependencies defined in Gemfile

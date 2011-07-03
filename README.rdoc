@@ -1,6 +1,13 @@
 = fibonacci_calc
 
-Description goes here.
+Calculates the closest fibonacci number less than the current number. 
+This functionality is monkey patched onto Fixnum. The method closest_fibonacci
+returns the closest fibonacci number that is less than the current number e.g.:
+
+1.closest_fibonacci
+# Returns 0
+144.closest_fibonacci
+# Returns 89
 
 == Contributing to fibonacci_calc
  
