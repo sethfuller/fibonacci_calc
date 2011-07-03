@@ -21,6 +21,10 @@ describe "FibonacciCalc" do
       144.closest_fibonacci.should == 89
   end
 
+  it "should return 144 when number is 145" do
+      145.closest_fibonacci.should == 144
+  end
+
   it "should raise an error when the number is too big for Fixnum" do
     lambda {
       1000000000000000000000.closest_fibonacci
